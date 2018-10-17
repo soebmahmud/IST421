@@ -14,15 +14,17 @@ th, td {
 <h2>Our Inventory</h2>
 <style>
 th, td {
-  padding: 5px;
+  padding: 10px;
 }
 th {
   text-align: center;
 }
 </style>
+<br>
 
 
-<table style="width:30%; float:left">
+<table style="width:50%; float:left">
+  <caption>Paint Collection</caption>
   <tr>
     <td>ItemSerial</td>
     <th>ItemName</th>
@@ -48,9 +50,8 @@ th {
     <td>45</td>
   </tr>
   </table>
-  <br>
-
-  <table style="width:30%;float: right">
+  <table style="width:50%;float:right">
+    <caption>Brush Collection</caption>
     <tr>
       <td>ItemSerial</td>
       <th>ItemName</th>
@@ -58,26 +59,81 @@ th {
       <th>Price(/Gal)</th>
     </tr>
     <tr>
-        <td>1</td>
-      <td>ColorWhite231</td>
-      <td>123</td>
-      <td>50</td>
-    </tr>
-    <tr>
-        <td>2</td>
-      <td>Red234</td>
-      <td>1234</td>
-      <td>40</td>
-    </tr>
-    <tr>
-        <td>3</td>
-      <td>Gray987</td>
+        <td>4</td>
+      <td>Brush123</td>
       <td>12345</td>
-      <td>45</td>
+      <td>1.15</td>
+    </tr>
+    <tr>
+        <td>5</td>
+      <td>Brush1234</td>
+      <td>123467</td>
+      <td>1.50</td>
+    </tr>
+    <tr>
+        <td>6</td>
+      <td>Brush987</td>
+      <td>123456</td>
+      <td>1.75</td>
     </tr>
   </table>
+  <table style="width:50%;float:right">
+    <caption>Roller Collection</caption>
+    <tr>
+      <td>ItemSerial</td>
+      <th>ItemName</th>
+      <th>ItemID</th> 
+      <th>Price(/Gal)</th>
+    </tr>
+    <tr>
+        <td>7</td>
+      <td>Roller123</td>
+      <td>12345</td>
+      <td>12</td>
+    </tr>
+    <tr>
+        <td>8</td>
+      <td>Roller345</td>
+      <td>1234</td>
+      <td>12</td>
+    </tr>
+    <tr>
+        <td>9</td>
+      <td>Roller987</td>
+      <td>1234567</td>
+      <td>10</td>
+    </tr>
+  </table>
+  <table style="width:50%; float:left">
+    <caption>Roller Pan Collection</caption>
+    <tr>
+      <td>ItemSerial</td>
+      <th>ItemName</th>
+      <th>ItemID</th> 
+      <th>Price(/Gal)</th>
+    </tr>
+    <tr>
+        <td>10</td>
+      <td>RollerPan1234</td>
+      <td>123</td>
+      <td>7.68</td>
+    </tr>
+    <tr>
+        <td>11</td>
+      <td>RollerPan987</td>
+      <td>1234</td>
+      <td>8.25</td>
+    </tr>
+    <tr>
+        <td>12</td>
+      <td>RollerPan987</td>
+      <td>12345</td>
+      <td>7.75</td>
+    </tr>
+    </table>
 </body>
 </html>
 
 </body>
 </html> 
+ 
